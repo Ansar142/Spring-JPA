@@ -35,6 +35,15 @@ public class LearnJpaApplication {
 		System.out.println(studentList+" "+studentList);
 
 
+		//if you want to delete or update you can use save for rep.update() and rep.delete() for deletion.
+		// for custom deletion as below :-
+		// rep.deleteByMarks(90); // now you have to give sql query to explain that method with annotaion like 
+		//@Modifying,@Transactional and @ Query(sql)
+
+
+		
+
+
 	}
 
 }
